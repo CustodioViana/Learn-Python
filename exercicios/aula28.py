@@ -21,6 +21,12 @@ idade = input(f'Qual é a sua idade? ')
 if nome and idade != '':
     print('Seu nome é ', nome)
     print('Seu nome invertido é ', nome[::-1])
+
+    if ' ' in nome:
+        print('Sue nome contém espaços')
+    else:
+        print('Seu nome Não contém espaços')
+
     print('Seu nome tem ', len(nome), 'letras')
     print('A primeira letra do seu nome é ', nome[0])
     print('A última letra do seu nome é: ', nome[-1:])
