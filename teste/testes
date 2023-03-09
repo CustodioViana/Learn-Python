@@ -11,6 +11,8 @@
 # numero = numero.isdigit()
 # print(numero)
 
-name = input('Please, enter your name: ')
-check = name == str
-print(check)
+# name = input('Please, enter your name: ')
+# check = name == str
+# print(check)
+
+print(10 * '-')

@@ -1,5 +1,5 @@
 print('Exercício Enunciados')
-print('--------------------')
+print(20 * '-')
 
 """
 First Step
@@ -22,7 +22,7 @@ try:
 except ValueError:
     print('You have not entered an integer number')
 
-print('--------------------')
+print(20 * '-')
 
 
 
@@ -54,7 +54,7 @@ try:
 except ValueError:
     print(error)
 
-print('--------------------')
+print(20 * '-')
 
 """
 Third Step
@@ -75,4 +75,4 @@ elif cont_name >= 5 and cont_name <= 6:
 elif cont_name > 5:
     print('Your name is too big')
 
-print('--------------------')
+print(20 * '-')
