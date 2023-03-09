@@ -1,8 +1,16 @@
-entrada = input('Digite [E]ntrar ou [S]air: ')
-senha = input('Digite a senha: ')
-sn = '123'
+# #entrada = input('Digite [E]ntrar ou [S]air: ')
+# #senha = input('Digite a senha: ')
+# sn = '123'
 
-if entrada == ('e' or 'E') and senha == sn :
-    print('Acesso Permitido.')
-else :
-    print('Acesso Negado.')
+# if entrada == ('e' or 'E') and senha == sn :
+#     print('Acesso Permitido.')
+# else :
+#     print('Acesso Negado.')
+
+# numero = input('algum numero')
+# numero = numero.isdigit()
+# print(numero)
+
+name = input('Please, enter your name: ')
+check = name == str
+print(check)
