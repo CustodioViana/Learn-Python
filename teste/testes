@@ -15,4 +15,5 @@
 # check = name == str
 # print(check)
 
-print(10 * '-')
+linha = 20 * '-'
+print(linha)
