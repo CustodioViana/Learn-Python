@@ -105,3 +105,6 @@ Loop infinito -> Quando um código não tem fim
 
 
 # print('Acabou')
+
+print(linha)
+

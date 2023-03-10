@@ -15,5 +15,26 @@
 # check = name == str
 # print(check)
 
-linha = 20 * '-'
-print(linha)
+# linha = 20 * '-'
+# print(linha)
+
+
+
+# print('Teste de Debug para endenter melhor repetição dentro de repetição')
+
+# qtd_linhas = 5
+# qtd_colunas = 5
+# parada = 'parada'
+
+# linha = 1
+# while linha <= qtd_linhas:
+#     print(parada)
+#     coluna = 1
+    
+#     while coluna <= qtd_colunas:
+#         print(f'{linha=} {coluna=}')    
+#         coluna += 1
+#     linha += 1
+#     # print(f'{linha=} {coluna=}')
+
+# print('Acabou')
