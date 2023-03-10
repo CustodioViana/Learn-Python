@@ -2,6 +2,8 @@
 Aprendendo do zero
 
 """
-Foco em Back-End.
+Foco em enter o código.
+Estruturar o código de forma limpa e fácil de entender.
+
 
 """
