@@ -37,7 +37,7 @@ while True:
             print(f'{valor_1} / {valor_2} = {divisao:.2}')
             print(linha)
         elif operador == '4':
-            print(f'{valor_1} * {valor_2} = {multiplicacao:.2}')
+            print(f'{valor_1} * {valor_2} = {multiplicacao}')
             print(linha)
         elif operador == '5':
             print(f'{valor_1} ** {valor_2} = {pontenciacao:.2}')
