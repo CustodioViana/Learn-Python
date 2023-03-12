@@ -38,3 +38,14 @@
 #     # print(f'{linha=} {coluna=}')
 
 # print('Acabou')
+
+
+"""
+Calculadora com while
+ 
+Operacões permitidas:
++
+-
+*
+/
+"""
