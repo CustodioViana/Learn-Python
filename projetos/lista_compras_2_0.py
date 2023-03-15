@@ -15,7 +15,7 @@ bebida = []
 
 
 while True:
-
+    print(linha)
     entrada = input('Escolha uma função desejada:\n'
                     '[I]nserir\n'
                     '[V]erificar ou Apagar\n'
