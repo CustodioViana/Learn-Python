@@ -76,7 +76,7 @@ while True:
                                 print('Número inválido')
                         except ValueError:
                             print('Digite um número válido')
-                    print(linha)
+                            
                     if apg_cate == 'B':
                         apg = input('Escolha o item para apagar: ')
                         try:
