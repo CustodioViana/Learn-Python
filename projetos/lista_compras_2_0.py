@@ -14,14 +14,14 @@ bebida = []
 
 
 while True:
-    print(linha)
+    os.system('cls')
+
     entrada = input('Escolha uma função desejada:\n'
                     '[I]nserir\n'
                     '[V]erificar ou Apagar\n'
                     '[S]air: ').upper()
 
     try:
-        os.system('cls')
         if entrada == 'I':  # inserir item
 
             produto = input('Oque deseja inseir? ')
@@ -76,7 +76,7 @@ while True:
                                 print('Número inválido')
                         except ValueError:
                             print('Digite um número válido')
-                            
+
                     if apg_cate == 'B':
                         apg = input('Escolha o item para apagar: ')
                         try:
