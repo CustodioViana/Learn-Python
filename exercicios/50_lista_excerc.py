@@ -7,7 +7,7 @@ lista[0] = 'Marta'
 
 i = range(len(lista))
 
-novo_nome = i
+# novo_nome = i
 
 for indice in i:
     print(indice, lista[indice])
