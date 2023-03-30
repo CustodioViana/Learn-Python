@@ -4,45 +4,45 @@ Escreva um script que pergunta ao usuário se ele deseja converter uma temperatu
 Para cada opção, crie uma função. Crie uma terceira, que é um menu para o usuário escolher a opção desejada, 
 onde esse menu chama a função de conversão correta.
 """
-print('Conversão de Temperatura')
+# print('Conversão de Temperatura')
 
-def C_para_F(cel):
-    f = (cel * 5/9) + 32
-    return print(f)
+# def C_para_F(cel):
+#     f = (cel * 5/9) + 32
+#     return print(f)
 
-def F_para_C(far):
-    c = (5/9) * (far-32)
-    return print(c)
+# def F_para_C(far):
+#     c = (5/9) * (far-32)
+#     return print(c)
 
-def menu():
-    while True:
-        escolha_1 = int(input('Qual unidade de temperatura deseja converter\n'
-                  '[1] Celsius para Farenheit\n'
-                  '[2] Farenheit para Celsius\n'
-                  '[3] Sair\n'
-                  ': '))
+# def menu():
+#     while True:
+#         escolha_1 = int(input('Qual unidade de temperatura deseja converter\n'
+#                   '[1] Celsius para Farenheit\n'
+#                   '[2] Farenheit para Celsius\n'
+#                   '[3] Sair\n'
+#                   ': '))
 
-        if escolha_1 == 1:
-            temp_C = int(input('Digite a temperatura em Celcius: '))
-            Farenheit = C_para_F(temp_C)
-            C_para_F
-            print()
-            continue
+#         if escolha_1 == 1:
+#             temp_C = int(input('Digite a temperatura em Celcius: '))
+#             Farenheit = C_para_F(temp_C)
+#             C_para_F
+#             print()
+#             continue
 
-        elif escolha_1 == 2:
-            temp_F = int(input('Digite a temperatura em Farenheit: '))
-            Celcius = F_para_C(temp_F)
-            F_para_C
-            print()
-            continue
+#         elif escolha_1 == 2:
+#             temp_F = int(input('Digite a temperatura em Farenheit: '))
+#             Celcius = F_para_C(temp_F)
+#             F_para_C
+#             print()
+#             continue
 
-        elif escolha_1 == 3:
-            break
+#         elif escolha_1 == 3:
+#             break
 
-        else:
-            print('Opção inválida')
+#         else:
+#             print('Opção inválida')
 
-menu()
+# menu()
 
 
 print()
@@ -52,8 +52,27 @@ print('Exerciocio 2')
 Faça um programa, com uma função que necessite de três argumentos, e que forneça a soma desses três argumentos através de uma função. 
 Seu script também deve fornecer a média dos três números, através de uma segunda função que chama a primeira.
 """
-print('3 Argumentos')
+# print('3 Argumentos')
 
+# def argumentos(*args):
+#     soma = 0
+#     for i in args:
+#         soma += i
+#     return soma
+
+# def media(a,b,c):
+#     md = (a+b+c) / 3
+#     return md
+
+# def menu():
+#     a = 5
+#     b = 7
+#     c = 9
+
+#     print(argumentos(a,b,c))
+#     print(media(a,b,c))
+
+# menu()
 
 
 
@@ -63,6 +82,30 @@ print('Exerciocio 3')
 """
 Faça um programa que recebe três números do usuário, e identifica o maior através de uma função e o menor número através de outra função.
 """
+def maior_numero(numero):
+    maior = max(numero)
+    return maior
+
+def menor_numero(x,y,z):
+    menor = x
+    if y < menor:
+        menor = y
+    elif z < menor:
+        menor = z
+    return menor
+
+def menu():
+    a = input('1º númeiro: ')
+    b = input('4º númeiro: ')
+    c = input('3º númeiro: ')
+    numeros = (a, b, c)
+    man = maior_numero(numeros)
+    men = menor_numero(a, b, c)
+    print(maior_numero(0))
+    f'Menor número: {menor_numero}'
+
+menu()
+
 
 print()
 print(30*'-')
